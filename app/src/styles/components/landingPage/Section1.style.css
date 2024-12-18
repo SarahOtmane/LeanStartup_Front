@@ -14,7 +14,7 @@
     height: 40rem;
 }
 
-.landingPage .section1 .gauche > *, .landingPage .section1 .droite .haut h2{
+.landingPage .section1 .gauche > *, .landingPage .section1 .droite .haut h3{
     margin: 0 2rem;
 }
 
@@ -41,12 +41,12 @@
     background-size: cover;
 }
 
-.landingPage .section1 .droite .haut div:first-child h2{
+.landingPage .section1 .droite .haut div:first-child h3{
     margin-top: 2rem;
     width: 70%;
 }
 
-.landingPage .section1 .droite .haut div:last-child h2{
+.landingPage .section1 .droite .haut div:last-child h3{
     position: relative;
     top: 65%;
 }
@@ -76,7 +76,7 @@
     margin-right: 2rem;
 }
 
-.landingPage .section1 .droite .bas article h2{
+.landingPage .section1 .droite .bas article h3{
     width: 83%;
 }
 
