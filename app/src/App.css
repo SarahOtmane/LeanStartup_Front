@@ -71,6 +71,14 @@
     font-family: 'Plus Jakarta Sans Medium';
 }
 
+.titre{
+    font-size: 3rem;
+}
+
+.sous-titre{
+    font-size: 3rem;
+}
+
 ul{
     list-style: none;
     padding: 0;
