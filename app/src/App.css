@@ -39,7 +39,7 @@
         url('./fonts/plusJakarta/PlusJakartaSans-Medium.woff2') format('woff2'),
         url('./fonts/plusJakarta/PlusJakartaSans-Medium.woff') format('woff'),
         url('./fonts/plusJakarta/PlusJakartaSans-Medium.svg#PlusJakartaSans-Medium') format('svg');
-    font-weight: 500;
+    font-weight: lighter;
     font-style: normal;
     font-display: swap;
 }
@@ -147,4 +147,8 @@ a{
 
 .text-uppercase{
     text-transform: uppercase;
+}
+
+.text-align-center{
+    text-align: center;
 }
