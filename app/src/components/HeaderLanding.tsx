@@ -13,7 +13,7 @@ const HeaderLanding: React.FC = () => {
     }
 
     return (
-        <header className='HeaderLanding background-color row align-center align-center justify-sp-between'>
+        <header className='HeaderLanding background-color row align-center align-center justify-sp-between padding'>
             <img alt='logo Hive2Work' src={Logo} />
             <nav className='navHeader row'>
                 <ul className='row'>
