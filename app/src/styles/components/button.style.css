@@ -1,3 +1,22 @@
-.button-white{
-    border: 1px solid;
+button.button_white{
+    border: 1px solid var(--gray-color);
+    color: wavr(--black-color);
+    background-color: var(--white-color);
+}
+
+button.button_white:hover{
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+button.button_black{
+    border: 1px solid var(--black-color);
+    color: wavr(--white-color);
+    background-color: var(--black-color);
+}
+
+button.button_black:hover{
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border: 1px solid var(--gray-color);
 }
