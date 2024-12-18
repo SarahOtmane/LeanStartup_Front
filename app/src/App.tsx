@@ -1,13 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
+
+import './App.css';
+
+import LandingPage from './pages/LandingPage';
 
 const App: React.FC = () => {
     return (
         <Router>
-            <Header />
             <Routes>
-                <Route path='/' element={<h1>Welcome to Hive2Work</h1>} />
+                <Route path='/' element={<LandingPage />} />
             </Routes>
         </Router>
     );
