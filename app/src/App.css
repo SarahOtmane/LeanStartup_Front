@@ -30,6 +30,9 @@
     background-color: var(--background-color);
 }
 
+.padding{
+    padding: 2rem 10rem;
+}
 
 ul{
     list-style: none;
