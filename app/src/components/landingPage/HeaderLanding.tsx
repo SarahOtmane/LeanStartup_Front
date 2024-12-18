@@ -1,10 +1,10 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import Logo from '../assets/logo.png';
-import Button from './Button';
+import Logo from '../../assets/logo.png';
+import Button from '../Button';
 
-import '../styles/components/headerLanding.style.css';
+import '../../styles/components/landingPage/headerLanding.style.css';
 
 const HeaderLanding: React.FC = () => {
     const navigate = useNavigate();
