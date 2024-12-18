@@ -7,9 +7,7 @@ const App: React.FC = () => {
         <Router>
             <Header />
             <Routes>
-                <Route path='/'>
-                    <h1>Welcome to Hive2Work</h1>
-                </Route>
+                <Route path='/' element={<h1>Welcome to Hive2Work</h1>} />
             </Routes>
         </Router>
     );
