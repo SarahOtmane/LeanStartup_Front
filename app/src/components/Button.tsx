@@ -2,6 +2,8 @@ import React from 'react';
 
 import icon_fleche from '../assets/icon_fleche.svg';
 
+import '../styles/components/button.style.css';
+
 interface ButtonProps {
     content?: string;
     handleClick?: () => void;
@@ -11,9 +13,9 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ content, handleClick, style, classe='' }) => {
     return (
-        <button onClick={handleClick} className={`${classe} ${style==='white' ? 'button_white' : 'button_black'}`}>
+        <button onClick={handleClick} className={`row ${classe} ${style==='white' ? 'button_white' : 'button_black'}`}>
             <img src={icon_fleche} alt='icon fleche' />
-            {content}
+            <p>{content}</p>
         </button>
     );
 }
