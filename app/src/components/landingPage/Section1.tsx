@@ -25,15 +25,15 @@ const Section1: React.FC = () => {
             <div className='droite'>
                 <div className='row haut justify-sp-between'>
                     <div>
-                        <h2 className='color-white'>Trouve des offres qui te correspond !</h2>
+                        <h3 className='color-white sous-titre-2'>Trouve des offres qui te correspond !</h3>
                     </div>
                     <div>
-                        <h2 className='color-white'>Reçoit des retours <span className='color-lilas'>rapidement</span>.</h2>
+                        <h3 className='color-white sous-titre-2'>Reçoit des retours <span className='color-lilas'>rapidement</span>.</h3>
                     </div>
                 </div>
                 <div className='bas row justify-sp-between'>
                     <article>
-                        <h2>Avec l’application Hive2Work, choisis les offres que tu aimes <span className='color-orange'>facilement</span>.</h2>
+                        <h3 className='sous-titre-2'>Avec l’application Hive2Work, choisis les offres que tu aimes <span className='color-orange'>facilement</span>.</h3>
                         <Button 
                             content='Télécharger l’application' 
                             handleClick={handleClick}
