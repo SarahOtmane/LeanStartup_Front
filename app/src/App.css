@@ -4,12 +4,13 @@
     --black-color: #000000;
     --orange-color: #FF9B3E;
     --gray-color: #DBDEEF;
+    --background-color: #F6F6F6;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .column{
@@ -21,19 +22,22 @@
     align-items: center;
 }
 
-
-
-button{
-    border-radius: 2rem;
-    cursor: pointer;
-    font-size: 1.2rem;
-    width: max-content;
-    padding: .5rem 1.5rem;
+.justify-sp-between{
+    justify-content: space-between;
 }
+
+.background-color{
+    background-color: var(--background-color);
+}
+
 
 ul{
     list-style: none;
     padding: 0;
+}
+
+ul li{
+    margin-right: 3rem;
 }
 
 a{
