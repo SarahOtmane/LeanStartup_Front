@@ -1,6 +1,6 @@
 import React from 'react';
 
-import icon_fleche from '../assets/icon_fleche.svg';
+import icon_fleche from '../assets/fleche_button.svg';
 
 import '../styles/components/button.style.css';
 
