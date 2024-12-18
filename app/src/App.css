@@ -63,7 +63,7 @@
     font-family: 'Plus Jakarta Sans Bold';
 }
 
-.extra-bold, h1, h2{
+.extra-bold, h1, h2, h3{
     font-family: 'Plus Jakarta Sans ExtraBold';
 }
 
@@ -76,7 +76,11 @@
 }
 
 .sous-titre{
-    font-size: 3rem;
+    font-size: 2.2rem;
+}
+
+.sous-titre-2{
+    font-size: 1.5rem;
 }
 
 ul{
