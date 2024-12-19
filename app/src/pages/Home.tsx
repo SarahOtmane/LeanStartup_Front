@@ -9,6 +9,7 @@ import Section4 from '../components/landingPage/Section4';
 import FooterLanding from '../components/landingPage/FooterLanding';
 import SearchBar from '../components/home/SearchBar';
 import CardsOffres from '../components/home/CardsOffres';
+import Section6 from '../components/home/Section6';
 
 const Home: React.FC = () => {
     return (
@@ -47,6 +48,7 @@ const Home: React.FC = () => {
                         </div>
                     </article>
                 </section>
+                <Section6 />
                 <Section4 />
             </main>
             <FooterLanding />
