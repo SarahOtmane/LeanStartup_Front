@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Button from '../Button';
 
+import '../../styles/components/home/SelectHeader.css';
+
 interface SelectHeaderProps {
     state: string;
     setState: React.Dispatch<React.SetStateAction<string>>;
