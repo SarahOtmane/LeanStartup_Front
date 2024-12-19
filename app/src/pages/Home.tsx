@@ -7,6 +7,7 @@ import '../styles/pages/home.style.css';
 import Section2 from '../components/landingPage/Section2';
 import Section4 from '../components/landingPage/Section4';
 import FooterLanding from '../components/landingPage/FooterLanding';
+import SearchBar from '../components/home/SearchBar';
 
 const Home: React.FC = () => {
     return (
@@ -14,6 +15,7 @@ const Home: React.FC = () => {
             <Header />
             <main className='home background-color padding'>
                 <Section1 />
+                <SearchBar />
                 <Section2 />
                 <section className='section3'>
                     <h2 className='sous-titre text-uppercase text-align-center'>Comment ça marche ?</h2>
