@@ -1,13 +1,16 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useNavigate} from 'react-router-dom';
 
 import Logo from '../../assets/logo.png';
 import Button from '../Button';
 
 import '../../styles/components/landingPage/headerLanding.style.css';
+import SelectHeader from './SelectHeader';
 
 const HeaderLanding: React.FC = () => {
     const navigate = useNavigate();
+
+    const [state, setState] = useState<string>('Espace étudiant');
     const handleClick = () => {
         navigate('/');
     }
@@ -21,11 +24,7 @@ const HeaderLanding: React.FC = () => {
                     <li><a href='#'>Mon dashboard</a></li>
                     <li><a href='#'>Messagerie</a></li>
                 </ul>
-                <Button 
-                    content='Accéder au site' 
-                    handleClick={handleClick}
-                    style='black'
-                />
+                <SelectHeader state={state} setState={setState} />
                 <Button 
                     content={`Se connecter`}
                     handleClick={handleClick}
