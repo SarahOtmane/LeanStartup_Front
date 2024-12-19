@@ -1,4 +1,4 @@
-.landingPage .accordion{
+.landingPage .accordion, .home .accordion {
     height: 30rem;
     background-color: var(--white-color);
     border-top-right-radius: 2rem;

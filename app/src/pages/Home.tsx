@@ -10,6 +10,7 @@ import FooterLanding from '../components/landingPage/FooterLanding';
 import SearchBar from '../components/home/SearchBar';
 import CardsOffres from '../components/home/CardsOffres';
 import Section6 from '../components/home/Section6';
+import CardSection7 from '../components/home/CardSection7';
 
 const Home: React.FC = () => {
     return (
@@ -49,6 +50,10 @@ const Home: React.FC = () => {
                     </article>
                 </section>
                 <Section6 />
+                <section className='section7 row justify-sp-between'>
+                    <CardSection7 content='Zoom sur les métiers d’aujourd’hui et de demain' link='/' />
+                    <CardSection7 content='Zoom sur les rémunérations, secteur par secteur' link='/' />
+                </section>
                 <Section4 />
             </main>
             <FooterLanding />
