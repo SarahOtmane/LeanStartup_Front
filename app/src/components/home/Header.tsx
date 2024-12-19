@@ -12,7 +12,7 @@ const HeaderLanding: React.FC = () => {
 
     const [state, setState] = useState<string>('Espace étudiant');
     const handleClick = () => {
-        navigate('/');
+        navigate('/profil');
     }
 
     return (

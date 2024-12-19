@@ -8,7 +8,7 @@ import '../../styles/components/landingPage/Section1.style.css';
 const Section1: React.FC = () => {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate('/');
+        navigate('/home');
     }
 
     return (
