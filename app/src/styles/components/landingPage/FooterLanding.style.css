@@ -1,0 +1,40 @@
+.footerLanding{
+    background-color: #1D1D1B;
+}
+
+.footerLanding ul{
+    margin: 0;
+}
+
+.footerLanding nav {
+    margin-right: 4rem;
+    margin: 0 4rem 4rem 0;
+}
+
+.footerLanding nav a{
+    font-size: 1.1rem;
+}
+
+.footerLanding div{
+    border: 1px solid #C9C9C9;
+    opacity: 0.4;
+    margin-bottom: 3rem;
+}
+
+.footerLanding div + ul {
+    margin-left: 2rem;
+}
+
+.footerLanding div + ul li {
+    margin-right: .5rem !important;
+}
+
+
+.footerLanding div + ul li:first-child, .footerLanding div + ul li:nth-child(2){
+    margin-right: 1.5rem !important;
+}
+
+.footerLanding div + ul li:last-child a{
+   margin-left: 20rem;
+   text-decoration: underline;
+}
