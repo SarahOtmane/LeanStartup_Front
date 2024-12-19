@@ -1,28 +1,34 @@
-.landingPage .section2{
+.landingPage .section2,
+.home .section2{
     margin-top: 6rem;
 }
 
-.landingPage .section2 .gauche{
+.landingPage .section2 .gauche,
+.home .section2 .gauche{
     background-color: var(--white-color);
     width: 40%;
     border-radius: 1.5rem;
     padding: 2rem;
 }
 
-.landingPage .section2 .background-image, .landingPage .section2 .content article{
+.landingPage .section2 .background-image, .landingPage .section2 .content article,
+.home .section2 .background-image, .home .section2 .content article{
     width: 49%;
 }
 
-.landingPage .section2 .content .parag{
+.landingPage .section2 .content .parag,
+.home .section2 .content .parag{
     font-size: 1.3rem;
 }
 
-.landingPage .section2 .content button{
+.landingPage .section2 .content button,
+.home .section2 .content button{
     position: relative;
     top: 12%;
 }
 
-.landingPage .section2 .background-image{
+.landingPage .section2 .background-image,
+.home .section2 .background-image{
     background-image: url('../../../assets/landingPage/back5.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,27 +36,32 @@
     border-radius: 1.5rem;
 }
 
-.landingPage .section2 .droite{
+.landingPage .section2 .droite,
+.home .section2 .droite{
     width: 53.5%;
 }
 
-.landingPage .section2 .droite .btn article{
+.landingPage .section2 .droite .btn article,
+.home .section2 .droite .btn article{
     padding: 1.5rem 1rem 2.5rem 1rem;
     border-top-left-radius: 1rem;
     border-top-RIGHT-radius: 1rem;
 }
 
-.landingPage .section2 .droite .btn button{
+.landingPage .section2 .droite .btn button,
+.home .section2 .droite .btn button{
     padding: .6rem 1.8rem;
     border: none;
     background-color: var(--gray-color-2);
 }
 
-.landingPage .section2 .droite .btn button.selected{
+.landingPage .section2 .droite .btn button.selected,
+.home .section2 .droite .btn button.selected{
     background-color: var(--lilas-color);
 }
 
-.landingPage .section2 .droite .btn article.selected{
+.landingPage .section2 .droite .btn article.selected,
+.home .section2 .droite .btn article.selected{
     background-color: var(--white-color);
 }
 
