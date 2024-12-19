@@ -13,22 +13,24 @@
 }
 
 .landingPage .section3 article div{
-    width: 43%;
+    width: 45%;
     align-content: center;
     margin-bottom: 3rem;
 }
 
 .landingPage .section3 article div.image{
     border-radius: 2rem;
-    height: 23rem;
+    height: 25rem;
 }
 
 .landingPage .section3 article div.text p{
    margin: 0;
+   line-height: 28px;
 }
 
 .landingPage .section3 article div.text h3{
     margin-top: .5rem;
+    line-height: normal;
 }
 
 .landingPage .section3 .text-right div:first-child{

@@ -44,8 +44,8 @@ const LandingPage: React.FC = () => {
                     </article>
                 </section>
                 <Section4 />
-                <FooterLanding />
             </main>
+            <FooterLanding />
         </>
     );
 }
