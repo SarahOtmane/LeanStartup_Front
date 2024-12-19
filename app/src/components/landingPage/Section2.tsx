@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import Button from '../Button';
+import Accordion from './Accordion';
 
 import fleche from '../../assets/fleche.svg';
 
@@ -47,6 +48,8 @@ const Section1: React.FC = () => {
                     <article className={btnSelected==='pourquoi' ? 'selected' : ''}><button className={`text-uppercase ${btnSelected==='pourquoi' ? 'selected' : ''}`} onClick={selectBtn} id='pourquoi'>Pourquoi ?</button></article>
                     <article className={btnSelected==='statistiques' ? 'selected' : ''}><button className={`text-uppercase ${btnSelected==='statistiques' ? 'selected' : ''}`} onClick={selectBtn} id='statistiques'>statistiques</button></article>
                 </div>
+
+                {btnSelected === 'avantages' &&(<Accordion />)}
             </div>
         </section>
     );
