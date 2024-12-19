@@ -51,24 +51,3 @@ button.button_black:hover{
     color: var(--white-color);
     background-color: var(--black-color);
 }
-
-div.sous-menu{
-    position: absolute;
-    background-color: var(--black-color);
-    border-radius: 1rem;
-    padding: 0 1rem;
-    top: 12%;
-    right: 24%;
-    font-size: 1.1rem;
-    width: 12.5rem;
-}
-
-div.sous-menu a{
-    border-bottom: 1px solid var(--white-color);
-    padding: 1rem 0;
-    text-align: center;
-}
-
-div.sous-menu a:last-child{
-    border-bottom: none;
-}
