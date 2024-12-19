@@ -7,7 +7,7 @@ import Button from '../Button';
 import '../../styles/components/landingPage/headerLanding.style.css';
 import SelectHeader from './SelectHeader';
 
-const HeaderLanding: React.FC = () => {
+const Header: React.FC = () => {
     const navigate = useNavigate();
 
     const [state, setState] = useState<string>('Espace étudiant');
@@ -36,4 +36,4 @@ const HeaderLanding: React.FC = () => {
     );
 }
 
-export default HeaderLanding;
+export default Header;
