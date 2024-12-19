@@ -8,6 +8,7 @@ import Section2 from '../components/landingPage/Section2';
 import Section4 from '../components/landingPage/Section4';
 import FooterLanding from '../components/landingPage/FooterLanding';
 import SearchBar from '../components/home/SearchBar';
+import CardsOffres from '../components/home/CardsOffres';
 
 const Home: React.FC = () => {
     return (
@@ -17,8 +18,9 @@ const Home: React.FC = () => {
                 <Section1 />
                 <SearchBar />
                 <Section2 />
+                <CardsOffres />
                 <section className='section3'>
-                    <h2 className='sous-titre text-uppercase text-align-center'>Comment ça marche ?</h2>
+                    <h2 className='sous-titre text-uppercase text-align-center bold'>Comment ça marche ?</h2>
                     <p className='text-align-center'>Simplifie ta recherche d’alternance avec une plateforme pensée pour toi.</p>
                     <article className='row justify-sp-between text-right'>
                         <div className='image'></div>
