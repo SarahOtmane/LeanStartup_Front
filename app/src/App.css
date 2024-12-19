@@ -157,3 +157,7 @@ body{
 .text-align-center{
     text-align: center;
 }
+
+.margin-auto{
+    margin: auto;
+}
