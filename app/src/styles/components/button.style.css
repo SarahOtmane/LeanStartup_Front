@@ -57,3 +57,7 @@ button.button_select.button_white:hover{
     color: var(--black-color);
     background-color: var(--white-color);
 }
+
+button .picture{
+    margin-right: .6rem;
+}
