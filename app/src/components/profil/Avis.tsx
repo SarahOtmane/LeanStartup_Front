@@ -1,8 +1,14 @@
 import React from 'react';
 
 import '../../styles/components/profil/Avis.style.css';
+import Button from '../Button';
+import { useNavigate } from 'react-router-dom';
 
 const Avis: React.FC = () => {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate('/home');
+    }
 
     return (
         <section className='Avis'> 
@@ -76,6 +82,12 @@ const Avis: React.FC = () => {
                     <p>— <span className='bold'>Sophie Lebrun</span>, Designer freelance</p>
                 </article>
             </div>
+            <Button
+                content='Voir plus d’avis'
+                handleClick={handleClick}
+                style='black'
+                classe='margin-auto'
+            />
         </section>
     );
 }

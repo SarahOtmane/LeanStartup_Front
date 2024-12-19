@@ -33,3 +33,8 @@
 .Avis article p span{
     font-style: normal;
 }
+
+.Avis button{
+    border: 1px solid var(--white-color);
+    margin-top: 3rem;
+}
