@@ -8,7 +8,7 @@ import fleche from '../../assets/fleche.svg';
 
 import '../../styles/components/landingPage/Section2.style.css';
 
-const Section1: React.FC = () => {
+const Section2: React.FC = () => {
     const navigate = useNavigate();
 
     const [btnSelected, setBtnSelected] = useState('avantages');
@@ -55,4 +55,4 @@ const Section1: React.FC = () => {
     );
 }
 
-export default Section1;
+export default Section2;
