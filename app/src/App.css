@@ -56,6 +56,18 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'rockwellbold';
+    src: url('./fonts/rockwellbold/rockwell-bold-webfont.eot');
+    src: url('./fonts/rockwellbold/rockwell-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/rockwellbold/rockwell-bold-webfont.woff2') format('woff2'),
+         url('./fonts/rockwellbold/rockwell-bold-webfont.woff') format('woff'),
+         url('./fonts/rockwellbold/rockwell-bold-webfont.svg#rockwellbold') format('svg');
+    font-weight: bolder;
+    font-style: normal;
+
+}
+
 .semi-bold, a, button{
     font-family: 'Plus Jakarta Sans SemiBold';
 }
