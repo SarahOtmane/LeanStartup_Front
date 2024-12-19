@@ -98,6 +98,11 @@ a{
     color: var(--black-color);
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 
 .row{
     display: flex;
