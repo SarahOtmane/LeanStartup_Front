@@ -5,6 +5,7 @@ import Header from '../components/profil/Header';
 import '../styles/pages/Profil.style.css';
 import CardPoste from '../components/profil/CardPoste';
 import Avis from '../components/profil/Avis';
+import FooterLanding from '../components/landingPage/FooterLanding';
 
 const Profil: React.FC = () =>{
     return(
@@ -15,6 +16,7 @@ const Profil: React.FC = () =>{
                 <CardPoste />
                 <Avis />
             </main>
+            <FooterLanding />
         </>
     )
 }
