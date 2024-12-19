@@ -21,7 +21,6 @@ div.sous-menu a:last-child{
 
 .profil div.sous-menu{
     right: 10%;
-    top: 20%;
     background-color: var(--white-color);
 }
 

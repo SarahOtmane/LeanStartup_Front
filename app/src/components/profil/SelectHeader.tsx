@@ -24,8 +24,8 @@ const SelectHeader: React.FC = () => {
 
             {isOpen && (
                 <div className='column sous-menu'>
-                    <a href='/profil' onClick={handleChangeState} id='Mon CV'>Mon CV</a>
-                    <a href='/profil' onClick={handleChangeState} id='Paramètres'>Paramètres</a>
+                    <a href='#' onClick={handleChangeState} id='Mon CV'>Mon CV</a>
+                    <a href='#' onClick={handleChangeState} id='Paramètres'>Paramètres</a>
                     <a href='/home' onClick={handleChangeState} id='Me déconnecter'>Me déconnecter</a>
                 </div>
             )}
