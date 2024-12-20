@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+# Plateforme de CV Interactifs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Ce projet est une plateforme web conçue pour simplifier la recherche d’alternance tout en aidant les entreprises à trouver le candidat idéal. Elle propose des CV interactifs qui facilitent la communication et la découverte des profils. La plateforme comprend actuellement les fonctionnalités suivantes :
+- Landing Page 
+- Home Page : Une vue d’ensemble des fonctionnalités de la plateforme.
+- Page de profil (CV) : Représentation interactive des CV pour mettre en avant les compétences et expériences des utilisateurs.
 
-Currently, two official plugins are available:
+## Stack Technique
+- Frontend : Développé avec Vite et TypeScript pour une expérience de développement rapide et efficace.
+- Framework UI : Utilise MUI (Material-UI) pour des composants modernes et responsifs.
+- Docker : Garantit un environnement cohérent et isolé pour le projet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Installation et Configuration
+### Prérequis
+  - Docker
+  - Git
+### Étapes
+  ```bash
+    git clone https://github.com/votre-utilisateur/interactive-cv-platform.git
+    cd interactive-cv-platform
+    docker compose up --build -d
+  ```
+## Licence
+Ce projet est sous licence MIT.
