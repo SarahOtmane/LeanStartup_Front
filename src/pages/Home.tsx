@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '../components/home/Header';
 import Section1 from '../components/landingPage/Section1';
 
-import '../styles/pages/home.style.css';
+import '../styles/pages/Home.style.css';
 import Section2 from '../components/landingPage/Section2';
 import Section4 from '../components/landingPage/Section4';
 import FooterLanding from '../components/landingPage/FooterLanding';

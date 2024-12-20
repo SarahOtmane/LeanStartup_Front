@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 import Button from '../Button';
 
-import '../../styles/components/home/card.style.css';
+import '../../styles/components/home/Card.style.css';
 
 interface CardProps {
     pic: string,

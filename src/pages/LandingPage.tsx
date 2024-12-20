@@ -6,7 +6,7 @@ import Section2 from '../components/landingPage/Section2';
 import Section4 from '../components/landingPage/Section4';
 import FooterLanding from '../components/landingPage/FooterLanding';
 
-import '../styles/pages/landingPage.style.css';
+import '../styles/pages/LandingPage.style.css';
 
 const LandingPage: React.FC = () => {
     return (

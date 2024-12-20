@@ -6,7 +6,7 @@ import hive2work from '../../assets/home/card/hive2work.png';
 
 import Card from './Card';
 
-import '../../styles/components/home/card.style.css';
+import '../../styles/components/home/Card.style.css';
 
 const CardsOffres: React.FC = () => {
     const tabsAlternances = [{

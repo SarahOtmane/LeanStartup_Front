@@ -5,7 +5,7 @@ import fb from '../../assets/socialMedia/fb.svg';
 import linkedin from '../../assets/socialMedia/linkedin.svg';
 import x from '../../assets/socialMedia/x.svg';
 
-import '../../styles/components/landingPage/footerLanding.style.css';
+import '../../styles/components/landingPage/FooterLanding.style.css';
 
 const FooterLanding: React.FC = () => {
 
