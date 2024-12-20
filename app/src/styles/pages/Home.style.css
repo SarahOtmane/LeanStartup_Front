@@ -1,0 +1,32 @@
+.home .section7{
+    padding: 0 1rem;
+    margin-top: 7rem;
+} 
+
+.home .section7 div{
+    width: 49%;
+    border-radius: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+
+.home .section7 div:first-child{
+    background-image: url(../../assets/home/back5.png);
+}
+
+.home .section7 div:last-child{
+    background-image: url(../../assets/home/back6.png);
+}
+
+.home .section7 article{
+    width: 70%;
+    padding-left: 2.5rem;
+    margin-top: 14rem;
+}
+
+.home .section7 article h3{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}

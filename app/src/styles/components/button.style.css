@@ -37,3 +37,27 @@ button.button_black:hover{
     color: var(--black-color);
     border: 1px solid var(--gray-color);
 }
+
+button.button_select{
+    width: 15rem;
+}
+
+button.button_select p{
+    margin-right: .5rem;
+}
+
+button.button_select.button_black:hover{
+    border: 1px solid var(--black-color);
+    color: var(--white-color);
+    background-color: var(--black-color);
+}
+
+button.button_select.button_white:hover{
+    border: 1px solid var(--gray-color);
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+button .picture{
+    margin-right: .6rem;
+}

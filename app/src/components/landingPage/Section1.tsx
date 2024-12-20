@@ -8,11 +8,11 @@ import '../../styles/components/landingPage/Section1.style.css';
 const Section1: React.FC = () => {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate('/');
+        navigate('/home');
     }
 
     return (
-        <section className='section1 row justify-sp-between'>
+        <section className='section1 row justify-sp-between' id='section1'>
             <div className='gauche'>
                 <h1 className='titre'>Étudiants et entreprises, enfin connectés <span className='color-white'>efficacement !</span></h1>
                 <p className='color-white'>Cherche et trouve l’alternance des tes rêves en mettant tes compétences en avant. Découvre une multitudes d’offres partout en France !</p>

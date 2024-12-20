@@ -5,6 +5,7 @@ import './App.css';
 
 import LandingPage from './pages/LandingPage';
 import Home from './pages/Home';
+import Profil from './pages/Profil';
 
 const App: React.FC = () => {
     return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
             <Routes>
                 <Route path='/' element={<LandingPage />} />
                 <Route path='/home' element={<Home />} />
+                <Route path='/profil' element={<Profil />} />
             </Routes>
         </Router>
     );

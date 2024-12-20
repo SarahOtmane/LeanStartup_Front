@@ -1,0 +1,40 @@
+.Avis{
+    background-color: var(--black-color);
+    border-radius: 1.5rem;
+    padding: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.Avis h1{
+    font-family: 'rockwellbold';
+    font-size: 1.9rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.Avis article{
+    background-color: var(--white-color);
+    width: 28%;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.Avis article h4 + p{
+    font-size: .9rem;
+    margin: 0;
+}
+
+.Avis article p + p{
+    margin-top: .5rem;
+    font-style: italic;
+}
+
+.Avis article p span{
+    font-style: normal;
+}
+
+.Avis button{
+    border: 1px solid var(--white-color);
+    margin-top: 3rem;
+}

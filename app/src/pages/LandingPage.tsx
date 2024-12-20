@@ -15,7 +15,7 @@ const LandingPage: React.FC = () => {
             <main className='landingPage background-color padding'>
                 <Section1 />
                 <Section2 />
-                <section className='section3'>
+                <section className='section3' id='section3'>
                     <h2 className='sous-titre text-uppercase text-align-center'>Comment ça marche ?</h2>
                     <p className='text-align-center'>Simplifie ta recherche d’alternance avec une plateforme pensée pour toi.</p>
                     <article className='row justify-sp-between text-right'>

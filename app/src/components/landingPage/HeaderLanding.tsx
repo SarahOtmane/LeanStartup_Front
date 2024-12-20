@@ -9,7 +9,7 @@ import '../../styles/components/landingPage/headerLanding.style.css';
 const HeaderLanding: React.FC = () => {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate('/');
+        navigate('/home');
     }
 
     return (
@@ -17,10 +17,9 @@ const HeaderLanding: React.FC = () => {
             <img alt='logo Hive2Work' src={Logo} />
             <nav className='navHeader row'>
                 <ul className='row'>
-                    <li><a href='#'>Services</a></li>
-                    <li><a href='#'>À propos</a></li>
-                    <li><a href='#'>FAQ</a></li>
-                    <li><a href='#'>Newsletter</a></li>
+                    <li><a href='#section1'>Services</a></li>
+                    <li><a href='#section3'>À propos</a></li>
+                    <li><a href='#section4'>Newsletter</a></li>
                 </ul>
                 <Button 
                     content='Accéder au site' 

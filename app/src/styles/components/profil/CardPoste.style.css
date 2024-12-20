@@ -1,0 +1,61 @@
+.CardPoste{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border-radius: 3rem;
+    padding: 2rem 2rem 2rem 4rem;
+}
+
+.CardPoste .photoProfil{
+    width: 20%;
+}
+
+.CardPoste .photoProfil p{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+
+.CardPoste .photoProfil span{
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.CardPoste .description{
+    width: 76%;
+}
+
+.CardPoste .description h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-family: 'rockwellbold';
+}
+
+.CardPoste .description article + p{
+    background-color: var(--white-color);
+    width: max-content;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.CardPoste .description h2 + p{
+    margin-bottom: 0;
+}
+
+.CardPoste .description .descrip{
+    margin-top: 0;
+    font-size: .9rem;
+    opacity: .9;
+    width: 90%;
+}
+
+.CardPoste .btn{
+    margin-top: 3rem;
+    margin-left: -.3rem;
+}
+
+.CardPoste button p{
+    margin-left: .5rem;
+}
