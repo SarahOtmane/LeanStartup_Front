@@ -1,0 +1,100 @@
+.compet{
+    margin-top: 5rem;
+}
+
+.compet .competences, .compet .projets{
+    width: 49% !important;
+}
+
+.compet .projets h3{
+    font-family: 'rockwellbold';
+    font-size: 1.6rem;
+}
+
+.compet .projets article{
+    background-color: var(--white-color);
+    padding: .5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.compet .projets article div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13rem;
+    border-radius: 1rem;
+}
+
+.compet .projets article div:first-child{
+    background-image: url('../../../assets/profil/projet1.png');
+}
+
+.compet .projets article div:nth-child(2){
+    background-image: url('../../../assets/profil/projet2.png');
+}
+
+.compet .projets article div:last-child{
+    background-image: url('../../../assets/profil/projet3.png');
+}
+
+.compet .projets article div p{
+    font-size: 1.6rem;
+    position: relative;
+    top: 10rem;
+    left: 1rem;
+}
+
+
+.compet .btn button{
+    background-color: #74A355;
+    border: none;
+    padding: .6rem 1.8rem;
+    font-size: 1rem;
+}
+
+.compet .btn article{
+    padding: 1.2rem 1rem 2rem 1rem;
+    border-top-left-radius: 1rem;
+    border-top-RIGHT-radius: 1rem;
+}
+
+.compet .btn button.selected{
+    background-color: #E82B89;
+}
+
+.compet .btn article.selected{
+    background-color: var(--black-color);
+}
+
+
+.competences .content{
+    background-color: var(--black-color);
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+    border-top-left-radius: 0;
+}
+
+.competences .content h3{
+    margin-top: 3rem;
+}
+
+.competences .content h3:first-child{
+    margin-top: 0;
+}
+
+.competences .content article{
+    flex-wrap: wrap !important;
+    border-top: 1px solid var(--white-color);
+}
+
+.competences .content button{
+    min-width: max-content;
+    border: 1px solid var(--white-color);
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.competences .content button p{
+    margin-left: .5rem;
+}
