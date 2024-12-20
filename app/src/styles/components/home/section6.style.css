@@ -1,0 +1,67 @@
+
+.section6 div.image{
+    border-radius: 1rem;
+}
+
+.section6 .gauche .image{
+    background-image: url(../../../assets/home/back1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24rem;
+}
+
+.section6 .gauche h3{
+    font-size: 2rem;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section6 .gauche h3 + p{
+    width: 95%;
+    opacity: .7;
+    margin-bottom: 2.5rem;
+}
+
+.section6 .droite, .section6 .gauche{
+    width: 49%;
+}
+
+.section6 .droite .image{
+    height: 15rem;
+}
+
+.section6 .droite article div{
+    width: 48%;
+}
+
+.section6 .droite article{
+    margin-bottom: 1rem;
+}
+
+.section6 .first .image{
+    background-image: url(../../../assets/home/back2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section6 .second .image{
+    background-image: url(../../../assets/home/back3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section6 .third .image{
+    background-image: url(../../../assets/home/back4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section6 .droite span{
+    font-size: 1.2rem;
+    opacity: .5;
+}
+
+.section6 .droite span + p{
+    font-size: 1.5rem;
+}

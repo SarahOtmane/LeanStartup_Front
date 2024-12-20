@@ -1,0 +1,16 @@
+.landingPage .accordion, .home .accordion {
+    height: 30rem;
+    background-color: var(--white-color);
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.accordion ul {
+    list-style: url('../../../assets/tick-circle.png');
+    margin-left: 2rem;
+}
+
+.accordion ul a {
+    font-family: 'Plus Jakarta Sans Medium';
+}
